@@ -7,11 +7,9 @@ func main() {
 	fmt.Print("Me conte o seu salário: ")
 	fmt.Scan(&n1)
 	if n1 < 1000 {
-		resultado := n1 * 1.1
-		fmt.Print("Seu salário terá um aumento de 10% e será: ", resultado)
+		fmt.Print("Seu salário terá um aumento de 10% e será: ", n1*1.1)
 	}
 	if n1 >= 1000 {
-		resultado := n1 * 1.05
-		fmt.Print("Seu salário terá um aumento de 5% e será: ", resultado)
+		fmt.Print("Seu salário terá um aumento de 5% e será: ", n1*1.05)
 	}
 }
