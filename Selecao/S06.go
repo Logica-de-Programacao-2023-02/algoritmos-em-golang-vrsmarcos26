@@ -10,11 +10,9 @@ func main() {
 	fmt.Scan(&n2)
 
 	if n1 >= 0 && n2 >= 0 {
-		resultado := n1 * n2
-		fmt.Println("Resultado da multiplicação", resultado)
+		fmt.Println("Resultado da multiplicação", n1*n2)
 	}
 	if n1 < 0 || n2 < 0 {
-		resultado := n1 + n2
-		fmt.Println("O resultado da soma será: ", resultado)
+		fmt.Println("O resultado da soma será: ", n1+n2)
 	}
 }
